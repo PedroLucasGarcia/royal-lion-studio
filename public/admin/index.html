@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#111110">
+  <title>Painel | Royal Lion Studio</title>
+  <link rel="preload" href="/fonts/roboto-condensed-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="icon" type="image/png" href="/img/favicon.png">
+  <link rel="stylesheet" href="/admin/admin.css">
+  <script src="/admin/admin.js" defer></script>
+</head>
+<body>
+  <main id="gate" class="gate" hidden>
+    <img class="gate-crest" src="/img/crest.png" alt="" width="134" height="220">
+    <h1 id="gateTitle" class="gate-title">Painel</h1>
+    <p id="gateText" class="gate-text"></p>
+    <form id="gateForm" class="gate-form" novalidate>
+      <label class="gate-label" for="gatePassword">Palavra-passe</label>
+      <input id="gatePassword" class="gate-input" type="password" name="password" required minlength="8" autocomplete="current-password">
+      <p id="gateError" class="gate-error" role="alert"></p>
+      <button id="gateSubmit" class="gate-submit" type="submit">Entrar</button>
+    </form>
+    <a class="gate-back" href="/">Voltar ao site</a>
+  </main>
+
+  <div id="app" class="shell" hidden>
+    <aside class="side">
+      <a class="side-brand" href="/admin/">Royal Lion<span>Painel</span></a>
+      <nav class="side-nav" id="nav" aria-label="Secções do painel"></nav>
+      <div class="side-foot">
+        <a class="side-link" href="/" target="_blank" rel="noopener">Ver o site
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+        </a>
+      </div>
+    </aside>
+
+    <div class="work">
+      <header class="work-head">
+        <h1 id="sectionTitle" class="work-title"></h1>
+        <div class="savebar" id="savebar">
+          <p id="saveStatus" class="save-status" role="status" aria-live="polite"></p>
+          <button id="discardBtn" class="btn btn-quiet" type="button">Descartar</button>
+          <button id="saveBtn" class="btn btn-primary" type="button">Guardar</button>
+        </div>
+      </header>
+      <main id="view" class="view" tabindex="-1"></main>
+    </div>
+  </div>
+</body>
+</html>

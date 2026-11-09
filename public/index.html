@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Royal Lion Studio</title>
+<meta name="description" content="">
+<meta name="theme-color" content="#111110">
+<link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/roboto-condensed-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="icon" type="image/png" href="/img/favicon.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="stylesheet" href="/styles.css">
+<script type="application/ld+json">{}</script>
+<script type="application/json" id="content-data">{}</script>
+<script src="/liquid-text.js" defer></script>
+<script src="/scroll-morph.js" defer></script>
+<script src="/site.js" defer></script>
+<script src="/edge-glow.js" defer></script>
+<script src="/nav-menu.js" defer></script>
+</head>
+<body>
+<header class="bar" id="bar">
+  <a class="bar-logo" href="#inicio" aria-label="Royal Lion Studio, início"><img src="/img/crest.png" data-c-src="brand.logo" alt="" width="268" height="440"></a>
+  <nav class="bar-nav" id="barNav" aria-label="Atalhos">
+    <a href="#inicio" data-c="nav.home">Início</a>
+    <a href="#servicos" data-c="nav.services">Serviços</a>
+    <a href="#trabalhos" data-nav="works" data-c="nav.works">Trabalhos</a>
+    <a href="#equipa" data-nav="team" data-c="nav.team">Equipa</a>
+    <a href="#contacto" data-c="nav.contact">Contacto</a>
+  </nav>
+  <span class="bar-sep" aria-hidden="true"></span>
+  <a class="btn btn-primary" href="#agendar" data-book data-c="nav.cta">Agendar</a>
+  <button class="bar-burger" type="button" aria-expanded="false" aria-controls="barNav" aria-label="Abrir menu"></button>
+</header>
+
+<main>
+  <section class="hero" id="inicio">
+    <div class="stage">
+      <h1 class="sr">Royal Lion Barber &amp; Hair Studio em Lamego, para homens e mulheres</h1>
+      <div class="plate">
+        <div class="plate-in">
+          <img id="heroPlate" class="plate-word" src="/img/hero-word.webp" srcset="/img/hero-word-1440.webp 1440w, /img/hero-word.webp 2880w" sizes="min(100vw, 179svh)" width="2880" height="1608" alt="Palavra Studio com Royal Lion pintado a verde" fetchpriority="high" data-c-src="hero.image">
+          <img id="heroPortrait" class="plate-man" src="/img/hero-portrait.webp" srcset="/img/hero-portrait-small.webp 638w, /img/hero-portrait.webp 1277w" sizes="(max-width: 699px) 70vw, min(45vw, 80svh)" width="1277" height="1406" alt="Barbeiro de t-shirt preta e braços tatuados, a segurar um cartão preto" data-c-src="hero.portrait" data-c-alt="hero.portraitAlt">
+          <img class="plate-ink plate-royal" src="/img/hero-royal.webp" alt="" width="548" height="280" loading="lazy">
+          <img class="plate-ink plate-lion" src="/img/hero-lion.webp" alt="" width="500" height="276" loading="lazy">
+          <img class="plate-ink plate-scribble-a" src="/img/hero-scribble-a.webp" alt="" width="169" height="340" loading="lazy">
+          <img class="plate-ink plate-scribble-b" src="/img/hero-scribble-b.webp" alt="" width="128" height="164" loading="lazy">
+          <img class="hero-tool hero-tool-comb" src="/img/hero-tool-comb.webp" alt="" width="484" height="370">
+          <img class="hero-tool hero-tool-scissors" src="/img/hero-tool-scissors.webp" alt="" width="272" height="589">
+          <img class="hero-tool hero-tool-clipper" src="/img/hero-tool-clipper.webp" alt="" width="307" height="665">
+          <img class="hero-tool hero-tool-dryer" src="/img/hero-tool-dryer.webp" alt="" width="390" height="553">
+          <img class="hero-tool hero-tool-iron" src="/img/hero-tool-iron.webp" alt="" width="336" height="656">
+        </div>
+      </div>
+      <p class="h-tl" data-c="hero.topLeft">DESDE
+2025</p>
+      <p class="h-tc" data-c="hero.topCenter">Royal Lion Barber &amp; Hair Studio</p>
+      <p class="h-tr" data-c="hero.topRight">PORTUGAL
+LAMEGO</p>
+      <div class="h-claim">
+        <p class="h-tag" data-c="hero.tagline">O PADRÃO QUE O TEU
+ESTILO MERECE.</p>
+      </div>
+      <div class="h-crest">
+        <img class="crest" src="/img/crest.png" data-c-src="brand.logo" alt="" width="268" height="440">
+        <img class="brush" src="/img/brush-under-long.png" alt="" width="319" height="85">
+      </div>
+      <div class="h-services">
+        <h2 class="h-green" data-c="hero.servicesTitle">SERVIÇOS</h2>
+        <ul id="heroServices">
+          <li>CORTE</li><li>BARBA</li><li>COLORAÇÃO</li><li>TRATAMENTOS</li><li>PRÓTESES CAPILARES</li><li>ALISAMENTOS</li><li>MADEIXAS</li><li>LAVAR E SECAR</li>
+        </ul>
+      </div>
+      <img class="h-star h-star-a" src="/img/asterisk.png" alt="" width="97" height="96">
+      <img class="h-star h-star-b" src="/img/asterisk.png" alt="" width="97" height="96">
+      <div class="h-action">
+        <a class="h-cta" href="#agendar" data-book>
+          <span data-c="hero.cta">AGENDE SEU HORÁRIO</span>
+          <span class="h-cta-cell"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></span>
+        </a>
+        <img class="brush" src="/img/brush-under-short.png" alt="" width="285" height="31">
+      </div>
+      <div class="h-open">
+        <h2 class="h-green" data-c="hero.hoursTitle">ABERTO DE TERÇA A SÁBADO</h2>
+        <p class="h-hours" data-c="hero.hours">09H – 12H | 14H – 19H</p>
+        <p class="h-addr" data-c="hero.address">R. da Olaria 65, 5100-155 Lamego</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="doors" id="servicos" aria-labelledby="doorsTitle">
+    <div class="doors-head">
+      <h2 class="display" id="doorsTitle" data-c="doors.title">Tudo que tu precisas em um só lugar</h2>
+    </div>
+    <div class="doors-row" id="doorsRow"></div>
+  </section>
+
+  <section class="works" id="trabalhos" aria-labelledby="galleryTitle" hidden>
+    <div class="works-stage" id="worksStage">
+      <div class="works-cards" id="worksCards"></div>
+      <div class="works-head" id="worksHead">
+        <h2 class="display" id="galleryTitle" data-c="gallery.title">Trabalhos</h2>
+        <p class="works-text" id="galleryText" hidden></p>
+      </div>
+    </div>
+    <div class="gallery-grid" id="galleryGrid"></div>
+  </section>
+
+  <section class="team" id="equipa" aria-labelledby="teamTitle">
+    <div class="team-head" id="teamHead">
+      <h2 class="display" id="teamTitle" data-c="team.title">Conheça nossa equipa</h2>
+      <p data-c="team.text"></p>
+    </div>
+    <div class="team-people" id="teamPeople"></div>
+  </section>
+
+  <section class="quotes" id="opinioes" aria-labelledby="quotesTitle" hidden>
+    <h2 class="display" id="quotesTitle" data-c="testimonials.title">Quem já cá veio</h2>
+    <div class="quotes-list" id="quotesList"></div>
+  </section>
+
+  <section class="cards" id="agendar" aria-label="Localização e marcação">
+    <article class="panel panel-place" id="contacto">
+      <h2 class="panel-title" data-c="contact.title">Onde estamos</h2>
+      <div class="locmap" id="mapBox" data-open="false" hidden>
+        <svg class="locmap-draw" viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <g>
+            <path class="locmap-road minor" pathLength="1" d="M0 45H400"/>
+            <path class="locmap-road minor" pathLength="1" d="M0 112.5H400"/>
+            <path class="locmap-road minor" pathLength="1" d="M0 180H400"/>
+            <path class="locmap-road minor" pathLength="1" d="M60 0V225"/>
+            <path class="locmap-road minor" pathLength="1" d="M180 0V225"/>
+            <path class="locmap-road minor" pathLength="1" d="M220 0V225"/>
+            <path class="locmap-road minor" pathLength="1" d="M340 0V225"/>
+            <path class="locmap-road" pathLength="1" d="M0 79H400"/>
+            <path class="locmap-road" pathLength="1" d="M0 146H400"/>
+            <path class="locmap-road" pathLength="1" d="M120 0V225"/>
+            <path class="locmap-road" pathLength="1" d="M280 0V225"/>
+          </g>
+          <g>
+            <rect class="locmap-block" x="70" y="52" width="40" height="20" rx="1"/>
+            <rect class="locmap-block" x="130" y="86" width="42" height="20" rx="1"/>
+            <rect class="locmap-block" x="228" y="86" width="44" height="20" rx="1"/>
+            <rect class="locmap-block" x="288" y="52" width="44" height="20" rx="1"/>
+            <rect class="locmap-block" x="68" y="118" width="44" height="22" rx="1"/>
+            <rect class="locmap-block" x="130" y="152" width="42" height="22" rx="1"/>
+            <rect class="locmap-block" x="288" y="118" width="44" height="22" rx="1"/>
+            <rect class="locmap-block" x="228" y="152" width="44" height="22" rx="1"/>
+            <rect class="locmap-block" x="130" y="10" width="42" height="28" rx="1"/>
+            <rect class="locmap-block" x="348" y="152" width="40" height="22" rx="1"/>
+          </g>
+          <g transform="translate(200 112.5) scale(1.5) translate(-12 -22)">
+            <g class="locmap-pin">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+              <circle cx="12" cy="9" r="2.5"/>
+            </g>
+          </g>
+        </svg>
+        <iframe id="mapFrame" title="Mapa com a localização da Royal Lion Studio" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <button class="locmap-face" id="mapFace" type="button" aria-expanded="false">
+          <span class="locmap-mark"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4 3 6.5V20l6-2.5 6 2.5 6-2.5V4l-6 2.5L9 4zM9 4v13.5M15 6.5V20"/></svg></span>
+          <span class="locmap-pill"><span class="locmap-dot"></span><span data-c="contact.mapPlace">Lamego</span></span>
+          <span class="locmap-foot">
+            <span class="locmap-name"><span data-c="contact.mapTitle">R. da Olaria 65</span><span class="locmap-rule"></span></span>
+            <span class="locmap-hint" data-c="contact.mapHint">Clica para abrir o mapa</span>
+          </span>
+        </button>
+        <button class="locmap-close" id="mapClose" type="button" aria-label="Fechar o mapa">
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5 5 19"/></svg>
+        </button>
+      </div>
+      <div class="place-info">
+        <div>
+          <h3 data-c="contact.headAddress">Morada</h3>
+          <p class="lines" data-c="contact.addressLines"></p>
+        </div>
+        <div>
+          <h3 data-c="contact.headHours">Horário</h3>
+          <p class="lines" data-c="contact.hoursLines"></p>
+        </div>
+        <div id="contactReach" hidden>
+          <h3 data-c="contact.headReach">Fala connosco</h3>
+          <ul class="reach" id="reachList"></ul>
+        </div>
+      </div>
+      <div class="panel-foot">
+        <img src="/img/crest.png" data-c-src="brand.logo" alt="" width="268" height="440" loading="lazy">
+        <a class="panel-link" id="mapsLink" href="#" target="_blank" rel="noopener"><span data-c="contact.mapsLabel">Abrir no Google Maps</span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+      </div>
+    </article>
+
+    <article class="panel panel-book">
+      <h2 class="panel-title" data-c="booking.title">Marca o teu horário</h2>
+      <p class="panel-text" data-c="booking.text"></p>
+      <div class="steps" id="bookSteps">
+        <h3 class="steps-title" data-c="booking.stepsTitle">A tua experiência em 3 passos</h3>
+        <ol class="steps-list" id="bookStepsList"></ol>
+      </div>
+      <a class="btn btn-white panel-go" id="bookGo" href="#agendar" data-book><span data-c="booking.cta">Agendar horário</span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+      <div class="panel-foot">
+        <img src="/img/crest.png" data-c-src="brand.logo" alt="" width="268" height="440" loading="lazy">
+        <p data-c="nav.footer">Royal Lion Studio, Lamego</p>
+      </div>
+    </article>
+  </section>
+
+  <section class="faq" id="perguntas" aria-labelledby="faqTitle">
+    <div class="faq-head">
+      <h2 class="display" id="faqTitle" data-c="faq.title">Perguntas que nos fazem</h2>
+    </div>
+    <div class="faq-list" id="faqList"></div>
+  </section>
+</main>
+
+<footer class="foot">
+  <a class="foot-logo" href="#inicio" aria-label="Royal Lion Studio, início"><img src="/img/crest.png" data-c-src="brand.logo" alt="" width="268" height="440" loading="lazy"></a>
+  <p class="foot-line" data-c="nav.footer">Royal Lion Studio, Lamego</p>
+  <a class="foot-link" id="complaintsLink" href="https://www.livroreclamacoes.pt" target="_blank" rel="noopener"><span data-c="nav.complaintsLabel">Livro de Reclamações</span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+</footer>
+
+<a class="dock" id="dock" href="#agendar" data-book><span data-c="nav.dock">Agendar horário</span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+<div class="edge-glow" id="edgeGlow" aria-hidden="true"></div>
+</body>
+</html>

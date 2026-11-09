@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.vercel/
+.env
+.env.*
+data/admin.json
+data/*.tmp
+.claude/
+.impeccable/

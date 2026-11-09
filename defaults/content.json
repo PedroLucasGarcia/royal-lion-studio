@@ -1,0 +1,143 @@
+{
+  "seo": {
+    "title": "Royal Lion Studio | Barbearia em Lamego para homens e mulheres",
+    "description": "Barbearia profissional em Lamego. Corte, barba, coloração, tratamentos e alisamentos para homens e mulheres. Agenda o teu horário online."
+  },
+  "brand": { "logo": "/img/crest.png" },
+  "nav": {
+    "home": "Início",
+    "services": "Serviços",
+    "works": "Trabalhos",
+    "team": "Equipa",
+    "contact": "Contacto",
+    "cta": "Agendar",
+    "dock": "Agendar horário",
+    "footer": "Royal Lion Studio, Lamego",
+    "complaintsLabel": "Livro de Reclamações",
+    "complaintsUrl": "https://www.livroreclamacoes.pt"
+  },
+  "hero": {
+    "image": "/img/hero-word.webp",
+    "portrait": "/img/hero-portrait.webp",
+    "portraitAlt": "Barbeiro de t-shirt preta e braços tatuados, a segurar um cartão preto",
+    "topLeft": "DESDE\n2025",
+    "topCenter": "Royal Lion Barber & Hair Studio",
+    "topRight": "PORTUGAL\nLAMEGO",
+    "tagline": "O PADRÃO QUE O TEU\nESTILO MERECE.",
+    "servicesTitle": "SERVIÇOS",
+    "services": ["CORTE", "BARBA", "COLORAÇÃO", "TRATAMENTOS", "PRÓTESES CAPILARES", "ALISAMENTOS", "MADEIXAS", "LAVAR E SECAR"],
+    "cta": "AGENDE SEU HORÁRIO",
+    "hoursTitle": "ABERTO DE TERÇA A SÁBADO",
+    "hours": "09H – 12H | 14H – 19H",
+    "address": "R. da Olaria 65, 5100-155 Lamego"
+  },
+  "doors": {
+    "title": "Tudo que tu precisas em um só lugar",
+    "homens": {
+      "word": "Homens",
+      "text": "Do corte à barba, sem pressa.",
+      "cta": "Agendar para homem",
+      "services": [
+        { "name": "Corte", "price": "" },
+        { "name": "Barba", "price": "" },
+        { "name": "Sobrancelha", "price": "" },
+        { "name": "Prótese capilar", "price": "" },
+        { "name": "Tratamento", "price": "" },
+        { "name": "Coloração", "price": "" },
+        { "name": "Platinado", "price": "" },
+        { "name": "Permanente", "price": "" },
+        { "name": "Alisamento", "price": "" },
+        { "name": "Depilação de orelha e nariz", "price": "" }
+      ]
+    },
+    "mulheres": {
+      "word": "Mulheres",
+      "text": "Corte, cor e alisamento, à tua medida.",
+      "cta": "Agendar para mulher",
+      "services": [
+        { "name": "Corte e finalização", "price": "" },
+        { "name": "Lavar e secar", "price": "" },
+        { "name": "Coloração", "price": "" },
+        { "name": "Madeixas", "price": "" },
+        { "name": "Alisamento", "price": "" },
+        { "name": "Permanente", "price": "" },
+        { "name": "Cauterização", "price": "" },
+        { "name": "Hidratação e nutrição", "price": "" },
+        { "name": "Restauração", "price": "" },
+        { "name": "Penteados", "price": "" }
+      ]
+    }
+  },
+  "team": {
+    "visible": true,
+    "title": "Conheça nossa equipa",
+    "text": "Uma equipa de profissionais apaixonados pelo detalhe, dedicados a oferecer uma experiência única e um estilo à tua medida.",
+    "members": [
+      { "photo": "/img/team-felipe.webp", "name": "Felipe Ferreira", "role": "Barbeiro" },
+      { "photo": "/img/team-thaynara.webp", "name": "Thaynara Lorrany", "role": "Atendimento" },
+      { "photo": "/img/team-luana.webp", "name": "Luana Garcia", "role": "Cabeleireira" }
+    ]
+  },
+  "gallery": {
+    "visible": true,
+    "title": "Trabalhos",
+    "text": "Um pouco do que já saiu desta cadeira.",
+    "pending": "Conheça um pouco do nosso trabalho.",
+    "open": "Ver foto",
+    "images": []
+  },
+  "testimonials": { "visible": true, "title": "Quem já cá veio", "items": [] },
+  "booking": {
+    "noonaUrl": "https://noona.pt/royallionstudio",
+    "pageUrl": "/marcacao",
+    "title": "Marca o teu horário",
+    "text": "Escolhes o serviço, o dia e a hora. Nós tratamos do resto.",
+    "cta": "Agendar horário",
+    "stepsTitle": "A tua experiência em 3 passos",
+    "steps": [
+      { "title": "Escolhe o serviço", "text": "Corte, barba ou tratamento." },
+      { "title": "Escolhe a data", "text": "Encontra o dia ideal para ti." },
+      { "title": "Confirma a hora", "text": "Reserva em poucos segundos." }
+    ]
+  },
+  "faq": {
+    "visible": true,
+    "title": "Perguntas que nos fazem",
+    "items": [
+      { "q": "A Royal Lion Studio também atende mulheres?", "a": "Sim! Temos serviços para homens e mulheres, incluindo cortes, coloração, alisamentos e tratamentos capilares. O nosso objetivo é valorizar o teu estilo, independentemente do que procuras." },
+      { "q": "O que é uma prótese capilar e para quem é indicada?", "a": "A prótese capilar é uma solução estética para quem deseja recuperar a aparência de um cabelo mais preenchido, disfarçar zonas com pouco cabelo ou lidar com a queda capilar. É adaptada ao teu estilo para proporcionar um resultado natural e personalizado." },
+      { "q": "A prótese capilar fica com um aspeto natural?", "a": "Sim! Quando escolhida e aplicada corretamente, a prótese capilar pode integrar-se com o teu cabelo, respeitando o formato do rosto, a cor e o estilo que pretendes." },
+      { "q": "Preciso de marcar antes de visitar a barbearia?", "a": "Recomendamos que faças uma marcação para garantires o teu horário e evitares tempos de espera." },
+      { "q": "Como posso marcar o meu horário?", "a": "É simples! Basta clicares no botão de marcação, escolheres o serviço, a data e a hora que preferes." },
+      { "q": "Quais são os dias e horários de funcionamento?", "a": "Estamos abertos de terça-feira a sábado, das 09h às 12h e das 14h às 19h." }
+    ]
+  },
+  "contact": {
+    "title": "Onde estamos",
+    "addressLines": "R. da Olaria 65\n5100-155 Lamego\nPortugal",
+    "mapsUrl": "https://www.google.com/maps/place/Royal+Lion+Studio+Barbershop/@41.097088,-7.8084109,21z/data=!3m1!5s0xd24ac9fc45e1ca9:0x91f5b128fc2f785c!4m6!3m5!1s0xd24adc369044151:0x10a7f2c4c913c0fa!8m2!3d41.0971257!4d-7.8084639!16s%2Fg%2F11mc9fmq2r?entry=ttu&g_ep=EgoyMDI2MTEwNC4wIKXMDSoASAFQAw%3D%3D",
+    "mapEmbed": "https://www.google.com/maps?q=Royal%20Lion%20Studio%20Barbershop%2C%20R.%20da%20Olaria%2065%2C%205100-155%20Lamego&z=18&output=embed",
+    "mapsLabel": "Abrir no Google Maps",
+    "mapTitle": "R. da Olaria 65",
+    "mapPlace": "Lamego",
+    "mapHint": "Clica para abrir o mapa",
+    "hoursLines": "Terça a sábado\n09h – 12h\n14h – 19h",
+    "headAddress": "Morada",
+    "headHours": "Horário",
+    "headReach": "Fala connosco",
+    "phone": "927 258 184",
+    "whatsapp": "",
+    "instagram": "https://www.instagram.com/royallionstudio/",
+    "email": "royallionbarbershop@gmail.com",
+    "reachPlaceholder": "[Telefone e Instagram por confirmar]"
+  },
+  "schedule": {
+    "openDays": [2, 3, 4, 5, 6],
+    "blocks": [ { "from": "09:00", "to": "12:00" }, { "from": "14:00", "to": "19:00" } ],
+    "interval": 30,
+    "capacity": 1,
+    "horizonDays": 21,
+    "minNoticeMin": 60,
+    "closedDates": []
+  }
+}
